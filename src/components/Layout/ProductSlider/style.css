@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.slick-track {
+  display: flex;
+}
+.slick-slider {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  padding-right: 10px;
+}
+
+.slick-slide:last-child {
+  padding-right: 0;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-list {
+  margin: 0 15px;
+}
+
+.slick-prev {
+    width: 50px;
+    right: 0;
+    position: absolute;
+    height: 50px;
+    border:  1px solid #E2E5F5;
+    z-index: 1;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.slick-next {
+  width: 50px;
+  right: 0;
+  position: absolute;
+  height: 50px;
+  border:  1px solid #E2E5F5;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.slick-prev:focus,
+.slick-prev:hover,
+.slick-next:hover,
+.slick-next:focus {
+
+  color: transparent;
+  outline: none;
+  /* background: tomato; */
+}
+.image-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* .hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+} */
