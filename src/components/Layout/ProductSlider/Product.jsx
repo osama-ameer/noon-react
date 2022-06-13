@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
-import grocery from '../../Assets/grocery.png'
+import grocery from '../../../Assets/grocery.png'
+
 
 const ProductCard = props => {
   return (

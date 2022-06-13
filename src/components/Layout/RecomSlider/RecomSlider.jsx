@@ -5,9 +5,10 @@ import ProductCard from "./Product";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style.css";
+
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 
-class ProductSlider extends Component {
+class RecomSlider extends Component {
   constructor() {
     super();
     this.state = {
@@ -50,7 +51,7 @@ class ProductSlider extends Component {
       dots: false,
       infinite: false,
       speed: 500,
-      slidesToShow: 6,
+      slidesToShow: 5,
       slidesToScroll: 4,
       initialSlide: 0,
       nextArrow: <MdKeyboardArrowRight color="gray" />,
@@ -83,12 +84,14 @@ class ProductSlider extends Component {
       ]
     };
     return (
-      <div className="mt-4 mb-3">
-        {/* <h2> Responsive Product Carousel</h2> */}
+      <div className="mt-3 mb-3">
+        <h3 className="ms-4 mb-4"> Recommended Products</h3>
+
         <Slider {...settings}>
+          
           {this.state.slides.map((slide, index) => {
             return (
-              <div key={index}>
+              <div key={index} className="width-100">
                 <ProductCard imgSrc={slide.img} />
                 {/* <img src={slide.img} alt={`slide${index}`} /> */}
               </div>
@@ -100,4 +103,4 @@ class ProductSlider extends Component {
   }
 }
 
-export default ProductSlider;
+export default RecomSlider;

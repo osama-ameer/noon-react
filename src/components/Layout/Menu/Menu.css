@@ -44,4 +44,17 @@ padding: 10px;
 cursor: pointer;
 background-color: #F7F7FA;
 }
+.navbarmenu{
+    display: none !important ;
+}
 
+@media (min-width:705px) {
+    .navbarmenu{
+        display: block !important ;
+    }
+    
+}
+
+.list-items{
+    list-style-type: none;
+}

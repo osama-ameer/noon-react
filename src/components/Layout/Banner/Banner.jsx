@@ -17,33 +17,38 @@ const Banner = () => {
 
 
         {/* Slider Section */}
-      <div className="row " >
-        <div className="col-8">
+      <div className="row g-0 " >
+        <div className="col-lg-8 col-12">
           <div className="slider">
-          <Carousel>
-      <Carousel.Item interval={1000} >
+          <Carousel style={{height: '220px', backgroundColor:'red'}}>
+      <Carousel.Item style={{height: '220px', backgroundColor:'red'}} interval={1000} >
         <img
-       
-          className="d-block w-100 img-fluid"
+
+          style={{height: '100%'}}
+          className="d-block w-100 "
           src={hero1}
           alt="First slide"
         />
         
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={500} style={{height: '220px', backgroundColor:'red'}}>
         <img
-        
-          className="d-block w-100 img-fluid"
+                   style={{height: '100%'}}
+
+          className="d-block w-100 "
           src={hero2}
           alt="Second slide"
         />
         
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item style={{height: '220px', backgroundColor:'red'}}>
         <img
-          className="d-block w-100 img-fluid"
+                   style={{height: '100%'}}
+
+          className="d-block w-100 "
           src={hero2}
           alt="Third slide"
+          
         />
        
       </Carousel.Item>
@@ -53,7 +58,7 @@ const Banner = () => {
 
        
 
-        <div className="col-4 d-flex">
+        <div className="col-lg-4 col-12 d-flex">
 
           <div className="col-6">
             <img src={men} className="img-fluid" />
