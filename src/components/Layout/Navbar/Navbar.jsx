@@ -25,13 +25,14 @@ const Navbar = () => {
            <div className="top-header p-2">
 
                {/* Logo */}
-                <div className="logo1 inside ">
+                <div className="logo1 inside me-3">
                     <img className='logo' src={noon} alt="logo" />
                 </div>
 
                 {/* Deliver to  */}
+                <div className='res'>
                 <div className="drop-down ms-3 me-3">  
-                    <img  src={sa} alt="logo" />
+                    <img  src={sa} alt="logo" className='' />
                     
               <p className='ms-2 me-2 mb-0' style={{width: '70px'}}>Deliver to <br />
                    <center> <strong> Riyadh</strong> </center> </p> 
@@ -41,13 +42,14 @@ const Navbar = () => {
                    </div>
            
                 </div>
+                </div>
 
                 {/* Search Bar */}
 
                 <div className="flex-grow-1 align-items-center">
                 <Form.Group as={Row}  controlId="formPlaintextPassword">
         
-        <Col sm="10" className='flex-grow-1 me-4 align-items-center mb-0 '>
+        <Col sm="10" className='flex-grow-1  align-items-center mb-0 '>
           <Form.Control className='shadow-none in' type="text" placeholder="What are you looking for?" />
         </Col>
       </Form.Group>

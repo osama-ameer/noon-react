@@ -58,3 +58,21 @@ background-color: #F7F7FA;
 .list-items{
     list-style-type: none;
 }
+
+.megamenu{
+    display: none;
+}
+
+.buttonsCat:hover .megamenu{
+    display: block;
+
+}
+
+.cat:hover{
+    color : blue
+}
+
+.sub-cat{
+    border-right: 1px solid #E2E5F5;
+}
+

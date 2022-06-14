@@ -15,6 +15,7 @@
 }
 
 .drop-down{
+
     display: flex;
     cursor: pointer;
     /* align-items: center; */
@@ -66,5 +67,16 @@ display: flex;
 
     opacity: 0.7;
 }
+
+.res{
+    display: none !important;
+}
+@media (min-width:705px) {
+    .res{
+        display: block !important ;
+    }
+    
+}
+
 
 

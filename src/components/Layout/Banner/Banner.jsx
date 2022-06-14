@@ -61,12 +61,12 @@ const Banner = () => {
         <div className="col-lg-4 col-12 d-flex">
 
           <div className="col-6">
-            <img src={men} className="img-fluid" />
+            <img src={men} className="img-fluid w-100" />
           </div>
 
 
           <div className="col-6">
-            <img src={women} className="img-fluid" />
+            <img src={women} className="img-fluid w-100" />
           </div>
         </div>
 
